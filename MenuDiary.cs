@@ -69,7 +69,7 @@ namespace DiaryApp2
                 }
                 void ListofStudents()
                 {
-
+                    List<string> Students = new List<String>();
                 }
                 
             }
