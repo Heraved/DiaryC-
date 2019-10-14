@@ -15,21 +15,8 @@ namespace DiaryApp2
 
             
 
-            /*
-            string name1;
-            name1 = Console.ReadLine();
-
-            Console.WriteLine("Wprowadź ocene:");
-            float assessment = new float();
-            assessment = float.Parse(Console.ReadLine());    /// konwertowanie float na string --> float.Parse
-
-
-            var student1 = name1 + "\t" + assessment;
-
-            List<string> ListOfStudents = new List<string>();
-
-          
-            */
+            
+       
             
 
             Console.ReadKey();
