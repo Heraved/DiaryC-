@@ -11,13 +11,9 @@ namespace DiaryApp2
         static void Main(string[] args)
         {
 
-            MenuDiary.Menu();
+            MenuGradebook.Menu();
 
-            
-
-            
-       
-            
+         
 
             Console.ReadKey();
         }
