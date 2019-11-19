@@ -19,22 +19,25 @@ namespace DiaryApp2
                 Console.Clear();
                 Console.WriteLine("1.Wpisz dane studenta");
                 Console.WriteLine("2.Dodaj ocene");
-                Console.WriteLine("3.Zmień dane");
-                Console.WriteLine("4.Wyświetl listę studentów");
-                Console.WriteLine("5.Wyjdź");
+                Console.WriteLine("3.Dodaj kolejnego studenta");
+                Console.WriteLine("4.Zmień dane");
+                Console.WriteLine("5.Wyświetl wszystkich studentów");
+                Console.WriteLine("6.Wyjdź");
 
                 ConsoleKeyInfo klawisz = Console.ReadKey();
                 switch (klawisz.Key)
                 {
                     case ConsoleKey.D1:
-                        Console.Clear(); Student.studentInput(); break;
+                        Console.Clear(); Student.info(); break;
                     case ConsoleKey.D2:
-                        Console.Clear(); Student.studentAssessment(); break;
+                        Console.Clear(); break;
                     case ConsoleKey.D3:
-                        Console.Clear();  break;
+                        Console.Clear(); Student.info(); break;
                     case ConsoleKey.D4:
-                        Console.Clear(); Student.showStudent(); break;
+                        Console.Clear(); break;
                     case ConsoleKey.D5:
+                        Console.Clear(); AllStudents.Createlistofstudents(); break;
+                    case ConsoleKey.D6:
                         Environment.Exit(0); break;
 
                     default: break;
