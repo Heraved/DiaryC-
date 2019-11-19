@@ -14,9 +14,9 @@ namespace DiaryApp2
                 Student newStudent = new Student();
                 List<Student> ListofStudents = new List<Student>();
                 ListofStudents.Add(newStudent);
-                foreach (var i in ListofStudents)
+                foreach (var student in ListofStudents)
                 {
-                    Console.WriteLine(i);
+                    Console.WriteLine(student);
                     
                 }
 
