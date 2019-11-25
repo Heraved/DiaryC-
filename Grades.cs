@@ -14,8 +14,6 @@ namespace DiaryApp2
         {
 
             Console.WriteLine("Wybierz studenta:");
-            ///lista studentów
-            ///wybor studenta
             Console.WriteLine("Wprowadź oceny studenta:");
             grades = Console.Read();
         }

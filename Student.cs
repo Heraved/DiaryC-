@@ -8,26 +8,10 @@ namespace DiaryApp2
 {
     public class Student
     {
-        public static string name;
-        public static string surname;
-        public static int age;
-       
+        public string name;
+        public string surname;
+        public int age;
 
-
-
-        public static void info()
-        {
-            Console.WriteLine("Wprowadź imie studenta:");
-            name = Console.ReadLine();
-            Console.WriteLine("Wprowadź nazwisko studenta:");
-            surname = Console.ReadLine();
-            Console.WriteLine("Podaj wiek studenta:");
-            age = Convert.ToInt32(Console.ReadLine());
-
-            
-
-        }
-        
     }
 }
    

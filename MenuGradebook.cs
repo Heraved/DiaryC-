@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DiaryApp2
 {
-    class MenuGradebook
+    class menuGradebook
        
     {
         public static void Menu()
@@ -28,15 +28,15 @@ namespace DiaryApp2
                 switch (klawisz.Key)
                 {
                     case ConsoleKey.D1:
-                        Console.Clear(); Student.info(); break;
+                        Console.Clear(); NewStudents.CreateStudents(); break;
                     case ConsoleKey.D2:
                         Console.Clear(); break;
                     case ConsoleKey.D3:
-                        Console.Clear(); Student.info(); break;
+                        Console.Clear(); NewStudents.CreateStudents(); break;
                     case ConsoleKey.D4:
                         Console.Clear(); break;
                     case ConsoleKey.D5:
-                        Console.Clear(); AllStudents.Createlistofstudents(); break;
+                        Console.Clear(); NewStudents.PrintAllStudents(); break;
                     case ConsoleKey.D6:
                         Environment.Exit(0); break;
 
