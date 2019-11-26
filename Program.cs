@@ -11,7 +11,7 @@ namespace DiaryApp2
         static void Main(string[] args)
         {
 
-            menuGradebook.Menu();
+            MenuGradebook.Menu();
 
          
 

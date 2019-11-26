@@ -11,7 +11,7 @@ namespace DiaryApp2
         public string name;
         public string surname;
         public int age;
-
+        public float grades;
     }
 }
    
