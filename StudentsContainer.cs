@@ -57,7 +57,7 @@ namespace DiaryApp2
             {
                 foreach (var grades in ListofGrades)
                 {
-                    Console.WriteLine("\n" + student.grades);
+                    Console.WriteLine("\n" + grades);
                 }
             }
             Console.ReadKey();
